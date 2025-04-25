@@ -113,19 +113,19 @@ MealMate is a robust and user-friendly meal planning application that helps user
 
 Here are some screenshots showcasing the different screens and features of the **MealMate** app:
 
-1. **Home Screen**:
+
    ![Home Screen](https://github.com/user-attachments/assets/bd5238c9-5f7e-450d-a0fa-9eecdd61ae4c)
 
-2. **Meal Planner Screen**:
+
    ![Meal Planner](https://github.com/user-attachments/assets/105098ef-849a-4742-acd6-b5bbb5141fab)
 
-3. **Favorites Screen**:
+
    ![Favorites Screen](https://github.com/user-attachments/assets/96dbd174-7e1a-4b2f-9a56-cd7f6792f006)
 
-4. **Search Functionality**:
+
    ![Search Screen](https://github.com/user-attachments/assets/2425f885-99be-40ed-ad00-6d48d7063fca)
 
-5. **Meal Details**:
+
    ![Meal Details](https://github.com/user-attachments/assets/e2ee76df-1eb3-4e96-98cc-3575ef0f0cdc)
 
 ---
