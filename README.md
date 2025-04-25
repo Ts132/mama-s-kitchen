@@ -1,5 +1,4 @@
-![WhatsApp Image 2025-04-25 at 22 39 45_43bbbd59](https://github.com/user-attachments/assets/d3deee88-7379-4f3a-8087-b689ce3a1bf0)# mama-s-kitchen
- 
+  
 
 ## **1. Overview**
 
