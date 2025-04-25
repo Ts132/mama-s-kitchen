@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="16dp">
+
+        <!-- صورة الوجبة -->
+        <ImageView
+            android:id="@+id/ivMealImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:background="#E29B6F"
+            android:layout_marginBottom="16dp" />
+
+        <!-- عنوان الوجبة -->
+        <TextView
+            android:id="@+id/tvMealTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meal Title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#E29B6F"
+            android:layout_marginBottom="8dp" />
+
+        <!-- فاصل بين الأقسام -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E29B6F"
+            android:layout_marginBottom="16dp" />
+
+        <!-- فئة الوجبة -->
+
+        <!-- منطقة الوجبة -->
+        <TextView
+            android:id="@+id/tvMealCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Category:"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvMealArea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Area:"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:textStyle="bold" />
+
+        <!-- فاصل بين الأقسام -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E29B6F"
+            android:layout_marginBottom="16dp" />
+
+        <!-- مكونات الوجبة -->
+        <TextView
+            android:id="@+id/tvMealIngredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredients"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:textStyle="bold"
+            android:padding="8dp" />
+
+        <!-- مكونات الوجبة (قائمة) -->
+
+        <!-- فاصل بين الأقسام -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E29B6F"
+            android:layout_marginBottom="16dp" />
+
+        <!-- تعليمات الوجبة -->
+        <TextView
+            android:id="@+id/tvMealInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instructions"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:scrollbars="vertical" />
+
+        <!-- زر إضافة إلى المفضلة -->
+        <Button
+            android:id="@+id/btnAddToFavorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#C62828"
+            android:padding="12dp"
+            android:text="Add to Favorite"
+            android:textColor="#FFFFFF" />
+
+        <!-- مشغل يوتيوب -->
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtubePlayerView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>
