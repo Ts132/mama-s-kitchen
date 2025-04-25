@@ -103,7 +103,10 @@ suspend fun getMealById(@Query("i") mealId: String): Response<MealResponse>
 MealMate is a robust and user-friendly meal planning application that helps users explore and organize their meals seamlessly. Using modern Android development practices, APIs, and a structured database approach, it delivers a smooth user experience, enabling users to plan meals, store favorites offline, and view meal suggestions based on categories and countries.
 
 ---
-ScreenShot
+## **7. ScreenShot**
+
+
+ 
 ![WhatsApp Image 2025-04-25 at 22 39 47_a40219f7](https://github.com/user-attachments/assets/96dbd174-7e1a-4b2f-9a56-cd7f6792f006)
 ![WhatsApp Image 2025-04-25 at 22 39 46_de1651a2](https://github.com/user-attachments/assets/2425f885-99be-40ed-ad00-6d48d7063fca)
 ![WhatsApp Image 2025-04-25 at 22 39 46_bd72f0b0](https://github.com/user-attachments/assets/a76701c2-86e6-4f3b-8ef2-25b1fbe25066)
