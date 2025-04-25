@@ -1,8 +1,14 @@
-  
+ 
+
+# **Mama's kitchen- Documentation**
 
 ## **1. Overview**
 
 MealMate is an Android application designed to help users plan their meals efficiently. It integrates with TheMealDB API to provide meal suggestions, allows users to search meals by category, ingredient, or country, and saves favorite meals for offline access. The app also includes a calendar-based meal planner where users can schedule meals for specific dates. Additionally, users can log in with Google and view their favorites offline.
+
+### **Guest Mode**
+- **Guest users** can access the **Home Screen** and perform searches by category, ingredient, or country without logging in.
+- Only logged-in users can save favorites, view meal details, and plan meals for the week.
 
 ## **2. Features**
 
@@ -96,25 +102,33 @@ suspend fun getMealsByCountry(@Query("a") country: String): Response<MealRespons
 @GET("lookup.php")
 suspend fun getMealById(@Query("i") mealId: String): Response<MealResponse>
 ```
- 
+
 ## **6. Conclusion**
 
 MealMate is a robust and user-friendly meal planning application that helps users explore and organize their meals seamlessly. Using modern Android development practices, APIs, and a structured database approach, it delivers a smooth user experience, enabling users to plan meals, store favorites offline, and view meal suggestions based on categories and countries.
 
 ---
-## **7. ScreenShot**
 
+## **7. Screenshots**
 
- 
-![WhatsApp Image 2025-04-25 at 22 39 47_a40219f7](https://github.com/user-attachments/assets/96dbd174-7e1a-4b2f-9a56-cd7f6792f006)
-![WhatsApp Image 2025-04-25 at 22 39 46_de1651a2](https://github.com/user-attachments/assets/2425f885-99be-40ed-ad00-6d48d7063fca)
-![WhatsApp Image 2025-04-25 at 22 39 46_bd72f0b0](https://github.com/user-attachments/assets/a76701c2-86e6-4f3b-8ef2-25b1fbe25066)
-![WhatsApp Image 2025-04-25 at 22 39 46_abfb5171](https://github.com/user-attachments/assets/e2ee76df-1eb3-4e96-98cc-3575ef0f0cdc)
-![WhatsApp Image 2025-04-25 at 22 39 45_63d68061](https://github.com/user-attachments/assets/2d953b4e-7508-43df-baa2-09ce26bf9af4)
-![WhatsApp Image 2025-04-25 at 22 39 45_43bbbd59](https://github.com/user-attachments/assets/2899875c-e759-4301-9214-26172cccd31c)
-![WhatsApp Image 2025-04-25 at 22 39 44_ab66c201](https://github.com/user-attachments/assets/92c77728-ae96-486b-a514-16e19e1848e7)
-![WhatsApp Image 2025-04-25 at 22 39 43_d66f954a](https://github.com/user-attachments/assets/1ee379c9-9158-4c28-abe5-bfaef76d5373)
+Here are some screenshots showcasing the different screens and features of the **MealMate** app:
 
+1. **Home Screen**:
+   ![Home Screen](https://github.com/user-attachments/assets/bd5238c9-5f7e-450d-a0fa-9eecdd61ae4c)
+
+2. **Meal Planner Screen**:
+   ![Meal Planner](https://github.com/user-attachments/assets/105098ef-849a-4742-acd6-b5bbb5141fab)
+
+3. **Favorites Screen**:
+   ![Favorites Screen](https://github.com/user-attachments/assets/96dbd174-7e1a-4b2f-9a56-cd7f6792f006)
+
+4. **Search Functionality**:
+   ![Search Screen](https://github.com/user-attachments/assets/2425f885-99be-40ed-ad00-6d48d7063fca)
+
+5. **Meal Details**:
+   ![Meal Details](https://github.com/user-attachments/assets/e2ee76df-1eb3-4e96-98cc-3575ef0f0cdc)
+
+---
 
 ### **How to Run the Project**
 
@@ -125,4 +139,7 @@ MealMate is a robust and user-friendly meal planning application that helps user
 2. Open the project in **Android Studio**.
 3. Sync dependencies and build the project.
 4. Run the application on an emulator or a physical device.
- 
+
+---
+
+This structure includes the Guest Mode feature, ensuring users can browse the app's main functionalities and perform searches even without logging in. Let me know if you need further changes or additional details!
